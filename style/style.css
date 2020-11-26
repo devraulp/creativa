@@ -33,7 +33,7 @@
 
 /* PORTADA */
 .header__img {
-  background-image: url(/img/background.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -133,7 +133,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(/img/background1.jpg);
+  background-image: url(../img/background1.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -199,7 +199,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(/img/background2.jpg);
+  background-image: url(../img/background2.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -269,7 +269,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(/img/background3.jpg);
+  background-image: url(../img/background3.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -335,7 +335,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(/img/background4.jpg);
+  background-image: url(../img/background4.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -405,7 +405,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(/img/background5.jpg);
+  background-image: url(../img/background5.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -471,7 +471,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(/img/background6.jpg);
+  background-image: url(../img/background6.jpg);
 }
 
 @media only screen and (max-width: 375px) {
