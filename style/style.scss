@@ -54,7 +54,7 @@
 
 /* MENU DE NAVEGACION */ 
 .menu__bar {
-    background-image: linear-gradient(#c74905, #F05700);
+    background-image: linear-gradient(#00996F, #00C892);
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -171,24 +171,24 @@
 
 .section__nidos {
     @include seccion;    
-    background-image: url(../img/background3.jpg); 
+    background-image: url(../img/background1.jpg); 
 }
     
 .section__cojines {
     @include seccion;
-    background-image: url(../img/background4.jpg);   
+    background-image: url(../img/background2.jpg);   
     .section__p {
         text-align: right;
     }
 }
 .section__souvenir {
     @include seccion;   
-    background-image: url(../img/background5.jpg);  
+    background-image: url(../img/background1.jpg);  
 }
     
 .section__baberos {
     @include seccion;
-    background-image: url(../img/background6.jpg); 
+    background-image: url(../img/background2.jpg); 
     .section__p {
         text-align: right;
     }
@@ -196,7 +196,7 @@
 
 /* PIE DE PAGINA */
 footer {
-    background-image: linear-gradient(#c74905, #F05700);
+    background-image: linear-gradient(#00996F, #00C892);
     p {
         color: white;
         font-weight: bold;

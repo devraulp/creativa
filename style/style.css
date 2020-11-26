@@ -1,7 +1,7 @@
 /* MENU DE NAVEGACION */
 .menu__bar {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c74905), to(#F05700));
-  background-image: linear-gradient(#c74905, #F05700);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00996F), to(#00C892));
+  background-image: linear-gradient(#00996F, #00C892);
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
@@ -269,7 +269,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(../img/background3.jpg);
+  background-image: url(../img/background1.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -335,7 +335,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(../img/background4.jpg);
+  background-image: url(../img/background2.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -405,7 +405,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(../img/background5.jpg);
+  background-image: url(../img/background1.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -471,7 +471,7 @@
   padding: 30px 5rem;
   background-repeat: round;
   background-size: cover;
-  background-image: url(../img/background6.jpg);
+  background-image: url(../img/background2.jpg);
 }
 
 @media only screen and (max-width: 375px) {
@@ -539,8 +539,8 @@
 
 /* PIE DE PAGINA */
 footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c74905), to(#F05700));
-  background-image: linear-gradient(#c74905, #F05700);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00996F), to(#00C892));
+  background-image: linear-gradient(#00996F, #00C892);
 }
 
 footer p {
