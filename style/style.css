@@ -130,7 +130,7 @@
 
 /* SECCIONES */
 .section__almohadones {
-  padding: 30px 5rem;
+  padding: 5rem 5rem;
   background-repeat: round;
   background-size: cover;
   background-image: url(../img/background1.jpg);
@@ -144,7 +144,10 @@
 
 .section__almohadones .section__img {
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 3rem 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .section__almohadones .section__img img {
@@ -168,6 +171,7 @@
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
 }
@@ -196,7 +200,7 @@
 }
 
 .section__mantas {
-  padding: 30px 5rem;
+  padding: 5rem 5rem;
   background-repeat: round;
   background-size: cover;
   background-image: url(../img/background2.jpg);
@@ -210,7 +214,10 @@
 
 .section__mantas .section__img {
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 3rem 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .section__mantas .section__img img {
@@ -234,6 +241,7 @@
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
 }
@@ -261,12 +269,8 @@
   }
 }
 
-.section__mantas .section__p {
-  text-align: right;
-}
-
 .section__nidos {
-  padding: 30px 5rem;
+  padding: 5rem 5rem;
   background-repeat: round;
   background-size: cover;
   background-image: url(../img/background1.jpg);
@@ -280,7 +284,10 @@
 
 .section__nidos .section__img {
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 3rem 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .section__nidos .section__img img {
@@ -304,6 +311,7 @@
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
 }
@@ -332,7 +340,7 @@
 }
 
 .section__cojines {
-  padding: 30px 5rem;
+  padding: 5rem 5rem;
   background-repeat: round;
   background-size: cover;
   background-image: url(../img/background2.jpg);
@@ -346,7 +354,10 @@
 
 .section__cojines .section__img {
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 3rem 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .section__cojines .section__img img {
@@ -370,6 +381,7 @@
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
 }
@@ -397,12 +409,8 @@
   }
 }
 
-.section__cojines .section__p {
-  text-align: right;
-}
-
 .section__souvenir {
-  padding: 30px 5rem;
+  padding: 5rem 5rem;
   background-repeat: round;
   background-size: cover;
   background-image: url(../img/background1.jpg);
@@ -416,7 +424,10 @@
 
 .section__souvenir .section__img {
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 3rem 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .section__souvenir .section__img img {
@@ -440,6 +451,7 @@
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
 }
@@ -468,7 +480,7 @@
 }
 
 .section__baberos {
-  padding: 30px 5rem;
+  padding: 5rem 5rem;
   background-repeat: round;
   background-size: cover;
   background-image: url(../img/background2.jpg);
@@ -482,7 +494,10 @@
 
 .section__baberos .section__img {
   text-align: center;
-  padding: 5rem 3rem;
+  padding: 3rem 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .section__baberos .section__img img {
@@ -506,6 +521,7 @@
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
 }
@@ -531,10 +547,6 @@
   .section__baberos .carousel-item img {
     height: 300px;
   }
-}
-
-.section__baberos .section__p {
-  text-align: right;
 }
 
 /* PIE DE PAGINA */
@@ -570,8 +582,10 @@ footer p {
       align-self: center;
   color: black;
   font-size: 1.7rem;
+  text-align: center;
   font-weight: bold;
   text-shadow: 1px 2px 2px lightgrey;
+  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -606,6 +620,7 @@ footer p {
 }
 
 .header__form .form-row {
+  background-color: rgba(0, 0, 0, 0.171);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

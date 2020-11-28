@@ -5,6 +5,7 @@
     align-self: center;
     color: black;
     font-size: 1.7rem;
+    text-align: center;
     font-weight: bold;
     text-shadow: 1px 2px 2px lightgrey;
 
@@ -14,16 +15,17 @@
 }
 
 @mixin seccion {
-    padding: 30px 5rem;
+    padding: 5rem 5rem;
     background-repeat: round; 
     background-size: cover;
     @media only screen and (max-width:375px) {    
         padding: 1rem 2rem;            
-}
+    }
     
     .section__img {
         text-align: center;
-        padding: 5rem 3rem;
+        padding: 3rem 2rem;
+        align-self: center;
         img {
             width: 50%;
         }
@@ -162,11 +164,8 @@
 }
     
 .section__mantas {
-    @include seccion;
+    @include seccion;    
     background-image: url(../img/background2.jpg); 
-    .section__p {
-        text-align: right;
-    }
 }
 
 .section__nidos {
@@ -176,10 +175,7 @@
     
 .section__cojines {
     @include seccion;
-    background-image: url(../img/background2.jpg);   
-    .section__p {
-        text-align: right;
-    }
+    background-image: url(../img/background2.jpg); 
 }
 .section__souvenir {
     @include seccion;   
@@ -189,9 +185,6 @@
 .section__baberos {
     @include seccion;
     background-image: url(../img/background2.jpg); 
-    .section__p {
-        text-align: right;
-    }
 }
 
 /* PIE DE PAGINA */
@@ -218,6 +211,7 @@ footer {
 
 #header__p {
     @include seccion__p;
+    font-size: 1rem;
     display: flex;
     margin: 1rem 5rem;
     @media only screen and (max-width: 768px) {
@@ -227,7 +221,7 @@ footer {
 
 /*  CONTACTO  */
 
-.header__form {        
+.header__form {
     padding: 3rem 5rem;
     text-align: center;
     color: black;
@@ -236,7 +230,8 @@ footer {
     @media only screen and (max-width: 768px) {
         padding: 1rem 2rem;
     }
-    .form-row {
+    .form-row {        
+        background-color: rgba(0, 0, 0, 0.171);
         justify-content: center;
     }
 }
