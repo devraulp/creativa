@@ -84,8 +84,8 @@ header h1 {
 header .header__img__icowp {
   position: fixed;
   width: 100px;
-  bottom: -90px;
-  right: -30px;
+  bottom: -70px;
+  right: 0px;
   z-index: 2;
 }
 
@@ -100,8 +100,8 @@ header .header__img__icowp {
 header .header__img__icoinsta {
   position: fixed;
   width: 100px;
-  bottom: 0px;
-  right: -30px;
+  bottom: 20px;
+  right: 0px;
   z-index: 2;
 }
 

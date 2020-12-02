@@ -105,9 +105,10 @@ header {
     .header__img__icowp {
         position: fixed;
         width: 100px;
-        bottom: -90px;
-        right: -30px;
+        bottom: -70px;
+        right: 0px;
         z-index: 2;
+
         @media only screen and (max-width: 425px) {
             width: 70px;
             bottom: -50px;
@@ -117,8 +118,8 @@ header {
     .header__img__icoinsta {
         position: fixed;
         width: 100px;
-        bottom: 0px;
-        right: -30px;
+        bottom: 20px;
+        right: 0px;
         z-index: 2;
         @media only screen and (max-width: 425px) {
             width: 70px;
